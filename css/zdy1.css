@@ -23,7 +23,7 @@
 img { border:0!important;}
 #page-wrap { width:100%; height:64px; background:url(../images/bj2.jpg);}
 #header { width:1002px; height:64px; margin:auto;}
-#header .logo {width:254px; height:64px; overflow:hidden; float:left;}
+#header .logo {display:block;width:200px; height:64px; overflow:hidden; float:left;}
 #footer { width:100%; background:url(../images/bj13.jpg); overflow:hidden; padding:25px 0 25px 0;}
 .footer1 { width:1002px; margin:auto; text-align:center; color:#bababa; line-height:25px;}
 .f_bq a:hover{ color:#FFFFFF;}

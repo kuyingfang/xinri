@@ -25,14 +25,6 @@
 		<?php endif; ?>
 
 	</div>
-	<div class="footer2">
-		<?php if (get_option('mytheme_logo2')!=""): ?>
-		<img src="<?php echo get_option('mytheme_logo2'); ?>" />
-		<?php else : ?>
-		<img src="<?php bloginfo('template_url'); ?>
-		/images/logo2.png" />
-		<?php endif; ?>
-	</div>
 	<div style=" text-align:center;">
 		<?php echo get_option('mytheme_analytics'); ?>
 	</div>

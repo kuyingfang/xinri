@@ -143,13 +143,13 @@
 <body <?php body_class(); ?>>
 	<div id="page-wrap">
 		<div id="header">
-			<div class="logo">
+			<a class="logo" href="<?php bloginfo('url'); ?>">
 				<?php if (get_option('mytheme_logo')!=""): ?>
 				<img src="<?php echo get_option('mytheme_logo'); ?>" />
 				<?php else : ?>
 				<img src="<?php bloginfo('template_url'); ?>/images/logo.png" />
 				<?php endif; ?>
-			</div>
+			</a>
 			<div id="navigation" >
 				<?php wp_nav_menu(array( 'theme_location' => 'header-menu' ) ); ?>
 			</div>
